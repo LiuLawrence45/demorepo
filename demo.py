@@ -13,6 +13,9 @@ auth_token = "b54ba0b9b31511a9fe078e5596e68feb"
 client = Client(account_sid, auth_token)
 
 
+print("hello world")
+
+
 def call_person():
     call = client.calls.create(
     url="http://demo.twilio.com/docs/voice.xml",
