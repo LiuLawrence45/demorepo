@@ -14,6 +14,7 @@ client = Client(account_sid, auth_token)
 
 
 print("hello world")
+print("Helo world 2 this is what is working now")
 
 
 def call_person():
